@@ -1,0 +1,16 @@
+{
+  "name": "initlab-cov-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.4",
+    "pug": "^3.0.2",
+    "superagent": "^6.1.0"
+  }
+}

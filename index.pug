@@ -1,0 +1,32 @@
+head
+  meta(http-equiv="Content-Type",content="text/html; charset=UTF-8")
+  style.
+    #last, #current {
+      width: 100%
+    }
+    #last tr th {
+      background: #ccc;
+      text-align: center;
+      font-weight: bold;
+    }
+    #last tr td {
+      background: #eee;
+      text-align: center;
+    }
+    #current {
+      background: #ccc;
+      text-align: center;
+      font-size: 24px
+    }
+body
+  table#last
+    thead: tr
+      th Дата
+      th Бройка
+    tbody
+      each row in data
+        tr
+          td= row[0]
+          td= row[1]
+  div#current= current
+  
